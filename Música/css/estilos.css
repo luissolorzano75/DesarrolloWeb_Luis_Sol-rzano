@@ -1,0 +1,119 @@
+.cabezal{
+    height: 10%;
+    width:100%;
+    background-color: dimgray;
+}
+.imagen{
+    width:300px;
+    height:300px;
+
+}
+.comentario{
+    width: 50px;
+    height: 50px;
+ 
+}
+.bet{
+    margin-left: 1%;
+}
+.cuerpo{
+    background-color: white;
+}
+a{
+    color: white;
+}
+.active{
+    background-color: darkred;
+    color: black;
+}
+.betl{
+    margin-top: 10%;
+}
+
+.alinear{
+    text-align: center;
+}
+.logoimg{
+    height: 100%;
+    width: 10%;
+}
+.container{
+    background-color: darkslategrey;
+}
+.redes-sociales {
+    margin-top: 30px;
+}
+.img-social {
+    width: 40px;
+    height: 40px;
+  }
+.barranavegar{
+    background-color: black;
+    border: 1px solid white;
+    height: 10%;
+    margin-left: 1.2%;
+    width:97.5%;
+    margin-top: 1%;
+}
+.roses{
+    margin-top: 5%;
+}
+.rose{
+    margin-top: 3%;
+}
+li{
+    width:16%;
+}
+
+.peqe{
+    height: 50px;
+    width: 50px;
+    }
+.xd{
+    margin-bottom: 5%;
+    margin-right: 2%;
+}
+.espaciado{
+ margin-top: 4%;
+}
+.list-group-item{
+    width:50%;
+    margin-left: 10%;
+}
+.list-group{
+    margin-top: 15%;
+}
+
+@media (max-width:768px){
+ .logoimg{
+    margin-left: 18%;
+    margin-top: 3%;
+    width: 50px;
+    height: 50px;
+ }
+ .que{
+     margin-left: 1%;
+     margin-right: 3%;
+ }
+ .comentario{width:75px;}
+ .imagen{
+     margin-left:10%;
+     margin-bottom: 3%;
+ }
+ .medios{
+    margin-left: 35%;
+ }
+ .barranavegar{
+     text-align: center;
+     margin-left: 3%;
+     height: 10%;
+     margin-top: 40%;
+     width:94%;
+ }
+ li{
+     width: 100%;
+ }
+}
+.lol{
+    margin-left: 3%;
+}

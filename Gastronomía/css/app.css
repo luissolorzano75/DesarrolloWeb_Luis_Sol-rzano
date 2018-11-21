@@ -1,0 +1,72 @@
+body{
+    background-image:  url("../img/sala.jpg");
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.container{
+    background-color: rgba(255, 189, 249, 0.822);
+
+}
+.contain{
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.mar{
+    margin-left: 7%;
+}
+.lol{
+    margin-top: 1%;
+}
+.search{
+    margin-top: 4%;
+}
+.content{
+    margin-top:8%;
+    
+}
+.xd{
+    background-color: rgba(28, 68, 71, 0.904)
+}
+.menu{
+    text-align: center;
+    border: 1px solid rgb(166, 255, 138);
+}
+.pizza{
+    width:80%;
+    height:80%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.fav{
+    width: 23%;
+    height: 25%;
+    margin: 5%;
+}
+.content{
+    background-color: rgba(203, 255, 143, 0.904);}
+.maria{
+    width: 20%;
+    height: 40px;
+    margin-top: 10px;
+}
+.contactos{
+    margin-top: 2%;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    margin-right: 5%;
+}
+.contacto{
+    margin-top: 10%;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    
+}
+.public{
+    margin-right:20%;
+    
+}
+.con{
+    margin-left:10%;
+}

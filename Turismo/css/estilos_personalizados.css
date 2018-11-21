@@ -1,0 +1,53 @@
+body{
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover
+}
+.lol{
+  height: 30%;
+  width: 30%;
+}
+.fon{
+  font-size: 36px;
+  color: blue;
+  
+}
+.xd{
+  height: 50px;
+  width: 50px;
+}
+.ls{
+  float: left;
+  margin-left: 0%;
+}
+.ped{
+  height: 250px;
+  width: 280px;
+}
+.pedi{
+  height: 500px;
+  width: 280px;
+}
+.post{
+  background-color: aliceblue;
+}
+.momba{
+  height: 230px;
+  width: 200px;
+  margin-top: 9%;
+}
+.autor{
+  background-color: aliceblue;
+  margin-left: 5%;
+}
+.yo{
+  width: 200px;
+  height: 200px;
+}
+.bor{
+  border-bottom: 1px solid gray;
+}
+.post2{
+  background-color: aliceblue;
+  margin-left: 10%;
+}

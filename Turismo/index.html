@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <!--Importar la fuente de los íconos de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importar la hojas de estilos de materialize css-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" href="css/estilos_personalizados.css">
+    <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+    <title>Propiedades de alineación de texto</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <div class="row right">
+          <a class="waves-effect waves-light btn"><i class="material-icons left">home</i>Inicio</a>
+          <a class="waves-effect waves-light btn"><i class="material-icons left">location_on</i>Estuve aqui</a>
+          <a class="waves-effect waves-light btn"><i class="material-icons left">airplanemode_active</i>Mejores viajes</a>
+          <a class="waves-effect waves-light btn"><i class="material-icons left">chat</i>Recomendaciones</a>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col l6 fon">
+            <p class="fon"></p><img class="lol circle responsive-img"src="img/planificar.jpeg" >
+            <em>Creando mi propio camino</em></p>
+        </div>
+
+      </div>
+    </header>
+    <div class='container'>
+      <div class="row">
+        <div class="col l1 social hide-on-small-only ">
+          <div class="row ls"> <a href=""> <img class=" xd circle responsive-img ls" src="img/fb.png" alt=""></a></div>
+          <div class="row"><a href=""><img class=" xd circle responsive-img ls" src="img/tw.png" alt=""></a></div>
+          <div class="row"><a href=""><img class=" xd circle responsive-img ls" src="img/ig.jpg" alt=""></a></div>
+          <div class="row"><a href=""><img class=" xd circle responsive-img ls" src="img/yt.png" alt=""></a></div>
+          <div class="row"><a href=""><img class=" xd circle responsive-img ls" src="img/pt.png" alt=""></a></div>
+        </div>
+        <div class=" col l11 responsive-img">
+          <div class="row">
+            <div class="col l4">
+              <div class="row">
+                <div class="col l12">
+                  <img class="ped"src="img/1.jpg" >
+                </div>
+                <div class="col l12">
+                 <img class="ped"src="img/2.jpg" >
+                </div>
+              </div>
+            </div>
+            <div class="col l4">
+                <img class="pedi"src="img/3.jpg" >
+            </div>
+            <div class="col l4">
+                <div class="row">
+                  <div class="col l12">
+                      <img class="ped"src="img/4.jpg" >
+                  </div>
+                  <div class="col l12">
+                      <img class="ped"src="img/5.jpg" >
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class='post col l8'>
+            <div class="row">
+                <div class="col l4">
+                    <img class="momba" src="img/momba.JPG"> 
+                </div>
+                <div class="col l3">
+                    <p >El Mombacho </p> 
+                </div>
+                <div class=" col l8 row">
+                    <div class=" col l6 chip">
+                        18 de noviembre del 2018
+                        <i class="close material-icons">date_range</i>
+                      </div>
+                      <div class=" col l6 chip">
+                          Granada ,Nicaragua
+                          <i class="close material-icons">location_on</i>
+                        </div>
+                </div>
+                <div class="row col l8">
+                  <p>Reserva Natural Volcán Mombacho de Nicaragua, está ubicada al sur de la ciudad de Granada y de las Isletas de Granada. La belleza de sus paisajes y la riqueza de su flora y fauna lo hacen de un lugar único. Su clima fresco es muy agradaba. Una belleza natural indiscutible.</p>
+                </div>
+              </div>
+              <div class="row col l11">
+                <p>El volcán Mombacho se encuentra en la Reserva Natural Volcán Mombacho, teniendo una altura de Mil Cuatrocientos Metros sobre el nivel del mar, siendo el quinto volcán de la cadena Nicaragüense. Extinguido hace mucho tiempo, el volcán Mombacho se encuentra totalmente cubierto de vegetación, formando un particular ecosistema donde viven alrededor de cincuenta y dos especies de mamíferos, dos cientos treinta y ocho especies de aves, al menos unas doce especies de anfibios, treinta y seis especies diferentes de reptiles, unos cien tipos de mariposas y setecientos sesenta y cinco especies diferentes de flora.</p>
+              </div>
+              <div class="row col l12">
+                  <div class="form">
+                      <div class="row col l12">
+                          <div class="col l12 m6">
+                            <div class="card blue-grey darken-1">
+                              <div class="card-content white-text">
+                                <span class="card-title">Deja tu comentario</span>
+                                <div class="row">
+                                  <form >
+                                    <div class="col l12"> 
+                                      <div class="row">
+                                        <div class="input-field col l6">
+                                          <i class="material-icons prefix">perm_identity</i>
+                                          <input id="nombre"type="text" class="validate">
+                                          <label for="nombre">Nombre y Apellidos</label>
+                                        </div>
+                                          <div class="input-field col l6">
+                                              <i class="material-icons prefix">email</i>
+                                              <input type="email" id="email" class="validate">
+                                              <label for="email" data-success="Correcto" data-error="Debes completar este campo">Email</label>
+                                            </div>
+                                      </div>
+                                      <div class="row">
+            
+                                            <div class="input-field col l12">
+                                              <i class="material-icons prefix">chat</i>
+                                              <textarea  id="texto" class="materialize-textarea"></textarea>
+                                              <label for="texto">Comentario</label>
+                                            </div>
+            
+                                      </div>
+                                      <div class="row">
+                                          <div class= "input-field col l12 offset-l7">
+                                              <input class="btn waves-effect waves-light" type="submit">
+                                          </div>
+                                      </div>
+                                    </div>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                </div>
+              </div>
+
+        
+          </div>  
+         </div>
+         <div class='autor col l3 offset-l1'>
+            <div class="row col l12">
+                <img class="yo circle responsive-img"src="img/mar.jpg" alt="">
+              </div>
+              <div class="row col l12">
+               <h5 class="bor center">Luis Solórzano</h5>
+              </div>
+              <div class="center row col l12">
+                Nació en Granada, Nicaragua el día 7 de mayo del año 2000. Actualmente es estudiante en Next University.
+              </div>
+            </div>
+         </div>
+      </div>
+      <div class="row column col l12">
+          <div class="row column col l12 offset-l1 ">
+              <div class='post2 col l6 offset-l1 pull-l1 '>
+                  <div class="row">
+                      <div class="col l4">
+                          <img class="momba" src="img/laguna.JPG"> 
+                      </div>
+                      <div class="col l4">
+                          <p >Laguna de Apoyo </p> 
+                      </div>
+                      <div class=" col l8 row">
+                          <div class=" col l6 chip">
+                              18 de noviembre del 2018
+                              <i class="close material-icons">date_range</i>
+                            </div>
+                            <div class=" col l6 chip">
+                                Masaya ,Nicaragua
+                                <i class="close material-icons">location_on</i>
+                              </div>
+                      </div>
+                      <div class="row col l8">
+                        <p>
+    
+    
+                            En el centro de la franja del Pacífico del territorio nicaragüense, en el centro de la larga cadena volcánica que atraviesa el país de norte a sur, se encuentra un amplio y extinto cráter cuya forma es la de un cono invertido, ocupado en el centro por una de las más bellas lagunas de Nicaragua: la laguna de Apoyo.</p>
+                      </div>
+                    </div>
+                    <div class="row col l11">
+                      <p>A pesar de estar cerca de las muy pobladas ciudades de Masaya y Granada, así como de otras pequeñas urbes y pueblos, tanto la laguna como el frondoso bosque que puebla sus laderas conservan aún un estado natural importante y de un atractivo enorme.</p>
+                    </div>
+                    <div class="row col l12">
+                        <div class="form">
+                            <div class="row col l12">
+                                <div class="col l12 m6">
+                                  <div class="card blue-grey darken-1">
+                                    <div class="card-content white-text">
+                                      <span class="card-title">Deja tu comentario</span>
+                                      <div class="row">
+                                        <form >
+                                          <div class="col l12"> 
+                                            <div class="row">
+                                              <div class="input-field col l6">
+                                                <i class="material-icons prefix">perm_identity</i>
+                                                <input id="nombre"type="text" class="validate">
+                                                <label for="nombre">Nombre y Apellidos</label>
+                                              </div>
+                                                <div class="input-field col l6">
+                                                    <i class="material-icons prefix">email</i>
+                                                    <input type="email" id="email" class="validate">
+                                                    <label for="email" data-success="Correcto" data-error="Debes completar este campo">Email</label>
+                                                  </div>
+                                            </div>
+                                            <div class="row">
+                  
+                                                  <div class="input-field col l12">
+                                                    <i class="material-icons prefix">chat</i>
+                                                    <textarea  id="texto" class="materialize-textarea"></textarea>
+                                                    <label for="texto">Comentario</label>
+                                                  </div>
+                  
+                                            </div>
+                                            <div class="row">
+                                                <div class= "input-field col l12 offset-l7">
+                                                    <input class="btn waves-effect waves-light" type="submit">
+                                                </div>
+                                            </div>
+                                          </div>
+                                        </form>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                      </div>
+                    </div>
+      
+              
+                </div>  
+               </div>
+               <div class='autor col l2 '>
+                  <div class="row col l12">
+                      <img class="yo circle responsive-img"src="img/mar.jpg" alt="">
+                    </div>
+                    <div class="row col l12">
+                     <h5 class="bor center">Luis Solórzano</h5>
+                    </div>
+                    <div class="center row col l12">
+                      Nació en Granada, Nicaragua el día 7 de mayo del año 2000. Actualmente es estudiante en Next University.
+                    </div>
+                  </div>
+               </div>
+      </div>
+      
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+
+  </body>
+</html>
